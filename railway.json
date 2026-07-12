@@ -1,1 +1,22 @@
-
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "startCommand": "/entrypoint.sh",
+    "restartPolicyType": "ALWAYS",
+    "restartPolicyMaxRetries": 9999,
+    "healthcheckPath": "/ping",
+    "healthcheckTimeout": 600,
+    "healthcheckInterval": 60
+  },
+  "env": {
+    "IMMORTAL_MODE": "ULTIMATE",
+    "PAWS_USERNAME": "Mikaza0976",
+    "PAWS_PASSWORD": "P#c63Q!j3w3i_H=",
+    "PAWS_BASE_URL": "https://hub-paws.wmcloud.org",
+    "PAWS_LAB_URL": "/user/Mikaza0976/lab/workspaces/auto-r?redirects=1",
+    "KEEP_ALIVE_INTERVAL": "180",
+    "LOG_LEVEL": "INFO"
+  }
+}
