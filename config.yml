@@ -1,1 +1,22 @@
 
+paws:
+  username: "Mikaza0976"
+  password: 'P#c63Q!j3w3i_H='
+  base_url: "https://hub-paws.wmcloud.org"
+  lab_url: "/user/Mikaza0976/lab/workspaces/auto-r?redirects=1"
+
+  accounts:
+    - username: "Mikaza0976"
+      password: 'P#c63Q!j3w3i_H='
+    - username: "Mikaza0977"
+      password: "password2"
+    - username: "Mikaza0978"
+      password: "password3"
+
+keep_alive:
+  interval: 180
+  max_retries: 5
+
+logging:
+  level: "INFO"
+  file: "/var/log/immortal/immortal.log"
